@@ -8,10 +8,12 @@
  function webaiid_add_admin_page(){
     // Admin page
     add_menu_page( 'Webaiid theme options', 'Webaiid', 'manage_options', 'webaiid_settings', 'webaiid_theme_create_page', 'dashicons-schedule', 110);
+    // add_menu_page( $page_title:string, $menu_title:string, $capability:string, $menu_slug:string, $callback:callable, $icon_url:string, $position:integer|float|null );
 
     // Submenu page
     add_submenu_page( 'webaiid_settings', 'Webaiid theme options', 'Settings', 'manage_options', 'webaiid_settings');
     add_submenu_page( 'webaiid_settings', 'Webaiid theme options', 'Css', 'manage_options', 'webaiid_css_settings', 'webaiid_theme_css_submneu');
+    // add_submenu_page( $parent_slug:string, $page_title:string, $menu_title:string, $capability:string, $menu_slug:string, $callback:callable, $position:integer|float|null );
 
 
     // activate custom settings
