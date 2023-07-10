@@ -1,0 +1,24 @@
+/* #wpbody{
+    border: 2px solid red;
+} */
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.webaiid_admin_sidebar_preview{
+    width: 200px;
+}
+
+.profile-pic img{
+    max-width: 100%;
+}
+
+#profile_preview {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
